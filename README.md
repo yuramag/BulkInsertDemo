@@ -8,9 +8,7 @@
 
 <p>The attached demo project consists of a pre-compiled console application with config file and <code>Data</code> sub-folder containing sample <code>CSV</code> file. Before running the demo, make sure to adjust config file specifying correct connection <code>string</code> named &quot;<code>DefaultDb</code>&quot;. Another setting &quot;<code>MaxRecordCount</code>&quot; is equal to <code>100,000</code> by default, which should be OK for this demo. Note that the connection <code>string</code> can point to any existing database. All demo tables will be created automatically, so there is no need to set up the database manually.</p>
 
-<p>After launching the demo, it will show up in a console window asking to press <code>Enter</code> before initializing the database and before executing every demo action. Completed demo on my machine looks as follows:</p>
-
-<p><img src="DemoApp.jpg" style="width: 590px; height: 304px;" /></p>
+<p>After launching the demo, it will show up in a console window asking to press <code>Enter</code> before initializing the database and before executing every demo action.</p>
 
 <p>As a first step, the application will attempt to initialize the database. It will create (or recreate) three tables - one for each demo action:</p>
 
