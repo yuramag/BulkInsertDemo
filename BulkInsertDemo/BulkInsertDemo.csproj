@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\CsvParser.cs" />
+    <Compile Include="API\vNext\ObjectDataReader.cs" />
+    <Compile Include="API\vNext\DynamicDataReader.cs" />
     <Compile Include="Helpers\HelperExtensions.cs" />
     <Compile Include="Model\Contact.cs" />
     <Compile Include="API\DynamicDataReader.cs" />
